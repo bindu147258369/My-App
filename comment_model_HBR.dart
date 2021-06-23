@@ -10,7 +10,7 @@ class CommentModel {
   CommentModel.fromJson(Map<String, Object?> json)
       : this(
           mobile: json['mobile']! as String,
-          comment: json['content']! as String,
+          comment: json['comment']! as String,
           uid: json['uid']! as String,
           timestamp: json['timestamp']! as Timestamp,
         );
